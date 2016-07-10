@@ -1,5 +1,1 @@
-interface Error {
-    stdout?: string
-    stderr?: string
-}
-export function getGitCommitID(done: (error: Error, id?: string) => void): void
+export function getGitCommitID(done: (error: Error, stdout: string, stderr: string, id?: string) => void): void

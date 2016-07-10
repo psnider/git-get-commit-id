@@ -28,6 +28,7 @@
     },
     "files": [
         "git-get-commit-id.ts",
+        "git-get-commit-id.tests.ts",
         "git-get-commit-id.d.ts",
         "typings/index.d.ts"
     ]
