@@ -7,8 +7,7 @@
         "noImplicitAny": false,
         "removeComments": false,
         "noLib": false,
-        "outDir": ".",
-        "types": ["node"]
+        "types": ["chai", "mocha", "node"]
     },
     "formatCodeOptions": {
         "indentSize": 4,
@@ -25,7 +24,7 @@
         "placeOpenBraceOnNewLineForControlBlocks": false
     },
     "files": [
-        "git-get-commit-id.ts",
+        "git-get-commit-id.tests.ts",
         "git-get-commit-id.d.ts"
     ]
 }
