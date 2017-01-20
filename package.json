@@ -1,6 +1,6 @@
 {
   "name": "@sabbatical/git-get-commit-id",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "get the git commit-id for the current directory.",
   "main": "git-get-commit-id",
   "scripts": {
