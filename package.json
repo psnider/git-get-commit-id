@@ -1,6 +1,6 @@
 {
   "name": "@sabbatical/git-get-commit-id",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "get the git commit-id for the current directory.",
   "main": "git-get-commit-id",
   "scripts": {
@@ -15,15 +15,14 @@
   },
   "author": "Peter Snider",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "3.4.34",
     "@types/mocha": "2.2.33",
     "@types/node": "6.0.51",
     "chai": "3.5.0",
     "mocha": "3.2.0",
-    "typescript": "2.0.10"
+    "typescript": "2.2.1"
   },
   "typings": "./git-get-commit-id.d.ts"
 }

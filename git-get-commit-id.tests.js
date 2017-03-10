@@ -1,7 +1,8 @@
 "use strict";
-const CHAI = require('chai');
+Object.defineProperty(exports, "__esModule", { value: true });
+const CHAI = require("chai");
 const expect = CHAI.expect;
-const git = require('./git-get-commit-id');
+const git = require("./git-get-commit-id");
 describe('git-get-commit-id', function () {
     describe('getGitStatus', function () {
         it('should not return an error', function (done) {

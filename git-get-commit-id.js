@@ -1,5 +1,6 @@
 "use strict";
-const child_process = require('child_process');
+Object.defineProperty(exports, "__esModule", { value: true });
+const child_process = require("child_process");
 function getGitStatus(done) {
     var cmd = 'git status --porcelain';
     child_process.exec(cmd, (error, stdout, stderr) => {
